@@ -162,6 +162,7 @@
 //#define HW__VERSION_CODE 10183 // SparkFun "9DOF Sensor Stick" version "SEN-10183" (HMC5843 magnetometer)
 //#define HW__VERSION_CODE 10321 // SparkFun "9DOF Sensor Stick" version "SEN-10321" (HMC5843 magnetometer)
 //#define HW__VERSION_CODE 10724 // SparkFun "9DOF Sensor Stick" version "SEN-10724" (HMC5883L magnetometer)
+#define HW__VERSION_CODE 99999 // GY-80 "1DOF Sensor Board"
 
 
 // OUTPUT OPTIONS

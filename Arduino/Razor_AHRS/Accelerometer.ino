@@ -5,7 +5,7 @@
 /* Assign a unique ID to this sensor at the same time */
 Adafruit_ADXL345_Unified accel345 = Adafruit_ADXL345_Unified(12345);
 
-void displaySensorDetails(void)
+void displayAccSensorDetails(void)
 {
   sensor_t sensor;
   accel345.getSensor(&sensor);
@@ -127,7 +127,7 @@ void setup_acc(void)
   // displaySetRange(ADXL345_RANGE_2_G);
   
   /* Display some basic information on this sensor */
-  displaySensorDetails();
+  displayAccSensorDetails();
   
   /* Display additional settings (outside the scope of sensor_t) */
   displayDataRate();
